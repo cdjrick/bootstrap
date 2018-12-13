@@ -1,0 +1,148 @@
+/*               index               */
+#mainnav.container {
+    max-width: 100%;
+}
+
+#home {
+    font-size: 1.5rem;
+}
+
+#contact {
+    font-size: 1.5rem;
+    margin-left: -0.4rem;
+}
+
+#portfolio {
+    font-size: 1.5rem;
+}
+
+.overlay {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -5;
+    top: 0;
+    left: 0;
+}
+
+.jumbotron {
+    position: relative;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    z-index: -10;
+}
+
+h1 {
+    position:inherit; 
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+img {
+    border: 0.25rem solid white;
+    border-radius: 250px 250px;
+    height: 250px;
+    width: 200px;
+}
+
+body {
+    background-color: #081c40;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+a:active {
+    color: lightgrey;
+}
+
+
+h3 {
+    font-size: 2rem;
+    float: left;
+}
+
+.img-thumbnail {
+    width: 15%;
+    float: right;
+    border: none;
+}
+
+.content div:nth-child(odd) {
+    background-color: white;
+    border: 0.5rem solid #081c40;
+}
+
+.content div:nth-child(even) {
+    background-color: white;
+    border: 0.5rem solid #081c40;
+}
+
+p {
+    clear: both; 
+}
+
+/*                  Portfolio                   */
+
+.portfolioHeader {
+    height: 350px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border: none;
+    border-radius: 0;
+    height: 100%;
+}
+
+.moviedb {
+    margin-top: 3rem;
+}
+
+.grrbnb {
+}
+
+/*                 Contact Page                 */
+
+.form-p{
+    color: white;
+    word-spacing: 0.2rem;
+    margin: 3rem 1rem 4rem 1rem;
+    padding-bottom: 3.5rem;
+    font-size: 1.07rem;
+    border-bottom: 0.1rem solid white;
+}
+.form-group {
+    color: white;
+    margin-top: 2rem;
+}
+
+input {
+    margin-left: 1rem;
+}
+
+#details {
+    margin-left: 1rem;
+}
+
+button {
+    margin-bottom: 1rem;
+}
